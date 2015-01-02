@@ -1,0 +1,35 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<UsingTask
+		AssemblyFile="..\NuGet\packages\xunit.1.9.1\lib\net20\xunit.runner.msbuild.dll"
+		TaskName="Xunit.Runner.MSBuild.xunit"/>
+
+	<ItemGroup>
+	   <AllUnitTestFiles Include="..\$(SolutionFolder)\**\bin\Debug\*.Tests.Unit.dll;..\$(SolutionFolder)\**\bin\Debug\*.Tests.dll"/>
+	  
+	   
+	</ItemGroup>
+	
+	<PropertyGroup>
+		<BaseOutputPath Condition="'$(BaseOutputPath)' == ''">$(MSBuildProjectDirectory)\Builds\$(SolutionToBuild)</BaseOutputPath>
+		<BinOutputPath Condition="'$(BinOutputPath)' == ''">$(BaseOutputPath)\Deliverables</BinOutputPath>
+	</PropertyGroup>
+	
+	<Target Name="RemoveDirectories">
+		<MakeDir Condition="!Exists('$(BaseOutputPath)')" Directories="$(BaseOutputPath)"/>
+		<ItemGroup>
+			<FilesToDelete Include="$(BaseOutputPath)\**\*"/>
+		</ItemGroup>
+		<Delete Files="@(FilesToDelete)"/>
+	</Target>
+	
+	<Target Name="Build" DependsOnTargets="RemoveDirectories">
+		<MakeDir Condition="!Exists('$(BaseOutputPath)')" Directories="$(BaseOutputPath)"/>
+		<MakeDir Condition="!Exists('$(BinOutputPath)')" Directories="$(BinOutputPath)"/>
+        <MSBuild Projects="$(SolutionFolder)\$(SolutionToBuild).sln" Properties="Configuration=Debug;OutDir=$(BinOutputPath);Platform=Any CPU" Targets="rebuild"/>
+    </Target>
+
+	<Target Name="Test" DependsOnTargets="Build">
+		<xunit Assemblies="@(AllUnitTestFiles)" verbose="true" Html="$(SolutionToBuild)_Output.html" />
+	</Target>
+	
+</Project>

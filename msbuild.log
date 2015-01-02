@@ -1,0 +1,128 @@
+  MessageGen -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\MessageGen.exe
+  BaseDir - C:\tfs\AltexCore\Messaging\MessageLib\
+  baseFile - 
+  Filtering using C:\tfs\AltexCore\Messaging\MessageLib\\..\..\..\AltexFusion\Development\Flex\ScrapbookMessageLib\MessageFilter.xml
+  Filtering using C:\tfs\AltexCore\Messaging\MessageLib\\..\..\..\AltexFusion\Development\Flex\LinkedMessageLib\MessageFilter.xml
+  Filtering using C:\tfs\AltexCore\Messaging\MessageLib\\..\..\..\AltexFusion\Development\Flex\RESETMessageLib\MessageFilter.xml
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "lbmcs, Version=4.2.6.0, Culture=neutral, PublicKeyToken=4c79efafe09ede14, processorArchitecture=AMD64", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [C:\tfs\AltexCore\Messaging\MessageLib\MsgLib.csproj]
+  MsgLib -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\MsgLib.dll
+          1 file(s) copied.
+          1 file(s) copied.
+  CommandLineParser -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\CommandLineParser.dll
+  Event_Log -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\EventLog.dll
+  SimpleWebServer -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\SimpleWebServer.dll
+  Database -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\Database.dll
+  XMLHelpers -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\XMLHelpers.dll
+  DataloggerCacheLoader -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\DataloggerCacheLoader.dll
+  AltexAccurateTimer -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AccurateTimer.dll
+  AdminUserControls -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AdminUserControls.dll
+  PasswordEncryption -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexPasswordEncryption.dll
+  HeartbeatMonitoring -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\HeartbeatMonitoring.dll
+  AuthenticationService -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\Authentication Service.exe
+Manager\IRSTradeManager.cs(15,7): warning CS0105: The using directive for 'Altex.MessageLibrary.Util' appeared previously in this namespace [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Manager\IRSCreditManager.cs(20,7): warning CS0105: The using directive for 'Altex.Util' appeared previously in this namespace [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Manager\IRSManager.cs(21,7): warning CS0105: The using directive for 'Altex.UtilService' appeared previously in this namespace [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Manager\IRSPriceHistoryManager.cs(20,7): warning CS0105: The using directive for 'Altex.Util' appeared previously in this namespace [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Configurations\IRSUserConfiguration.cs(24,11): warning CS0105: The using directive for 'System.Text' appeared previously in this namespace [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Util_Manager.cs(20,7): warning CS0105: The using directive for 'Altex.Util' appeared previously in this namespace [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Manager\IRSTradeManager.cs(852,13): warning CS0162: Unreachable code detected [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Manager\IRSTradeManager.cs(1088,13): warning CS0162: Unreachable code detected [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Manager\IRSTradeManager.cs(1262,13): warning CS0162: Unreachable code detected [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Manager\IRSTradeManager.cs(1710,13): warning CS0162: Unreachable code detected [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Manager\IRSTradeManager.cs(2106,13): warning CS0162: Unreachable code detected [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Configurations\IRSUserConfiguration.cs(459,33): warning CS0168: The variable 'sqlEx' is declared but never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Configurations\IRSUserConfiguration.cs(463,30): warning CS0168: The variable 'e' is declared but never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+UtilsDataContextForMessages.cs(1530,25): warning CS0162: Unreachable code detected [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+UtilsDataContextForMessages.cs(1533,25): warning CS0162: Unreachable code detected [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+UtilsDataContextForMessages.cs(1670,13): warning CS0162: Unreachable code detected [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+Configurations\IRSRegionConfiguration.cs(18,24): warning CS0169: The field 'IRSUtilsService.Configurations.IRSRegionConfiguration._ConnectionString' is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IRSUtilsService\IRSUtilsService.csproj]
+  AltexDiffusionGateway -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexDiffusionGateway.exe
+  Configuration_Service -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\Configuration_Service.exe
+Editing\SelectionMouseHandler.cs(316,27): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\AltexCore\ConfigurationServices\ComponentManager2\AvalonEdit\plitxthl.tmp_proj]
+Rendering\VisualLineTextSource.cs(53,23): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\AltexCore\ConfigurationServices\ComponentManager2\AvalonEdit\plitxthl.tmp_proj]
+Rendering\VisualLineTextSource.cs(77,23): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\AltexCore\ConfigurationServices\ComponentManager2\AvalonEdit\plitxthl.tmp_proj]
+TextEditor.cs(295,26): warning CS1591: Missing XML comment for publicly visible type or member 'ICSharpCode.AvalonEdit.TextEditor.OnTextChanged(System.EventArgs)' [C:\tfs\AltexCore\ConfigurationServices\ComponentManager2\AvalonEdit\plitxthl.tmp_proj]
+  DiffusionManager -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\DiffusionManager.exe
+Common\FirmCreditGiveUpItem.cs(197,22): warning CS0414: The field 'RatesMarketControlAdmin.Common.FirmCreditGiveUpItem.inEditingMode' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Tools\RatesMarketControlAdmin\vd54sw34.tmp_proj]
+Editing\SelectionMouseHandler.cs(316,27): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\AltexCore\ConfigurationServices\ComponentManager2\AvalonEdit\ICSharpCode.AvalonEdit.csproj]
+Rendering\VisualLineTextSource.cs(53,23): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\AltexCore\ConfigurationServices\ComponentManager2\AvalonEdit\ICSharpCode.AvalonEdit.csproj]
+Rendering\VisualLineTextSource.cs(77,23): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\AltexCore\ConfigurationServices\ComponentManager2\AvalonEdit\ICSharpCode.AvalonEdit.csproj]
+TextEditor.cs(295,26): warning CS1591: Missing XML comment for publicly visible type or member 'ICSharpCode.AvalonEdit.TextEditor.OnTextChanged(System.EventArgs)' [C:\tfs\AltexCore\ConfigurationServices\ComponentManager2\AvalonEdit\ICSharpCode.AvalonEdit.csproj]
+  ICSharpCode.AvalonEdit -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\ICSharpCode.AvalonEdit.dll
+  MessageEmailService -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\MessageEmailService.exe
+  AltexAuthentication -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexAuthentication.dll
+  CollapsibleSplitter -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\CollapsibleSplitter.dll
+Common\FirmCreditGiveUpItem.cs(197,22): warning CS0414: The field 'RatesMarketControlAdmin.Common.FirmCreditGiveUpItem.inEditingMode' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Tools\RatesMarketControlAdmin\RatesMarketControlAdmin.csproj]
+  RatesMarketControlAdmin -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\RatesMarketControlAdmin.exe
+  MessageMonitor -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\MessageMonitor.exe
+  DataLogger -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\DataLogger.exe
+  IRSUtilsService -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\IRSUtilsService.exe
+  ServiceManager -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\ServiceManager.exe
+  TaskListCommandLine -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\TaskListCommandLine.exe
+  TCPMessageServer -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\TCPMessageServer.exe
+  TreeListViewControl -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\Altex.TreeListViewControl.dll
+  TCPMessageServerAdmin -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\TCPMessageServerAdmin.exe
+  UID -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\UID.dll
+MainWindow.xaml.cs(64,20): warning CS0219: The variable 'leg' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIRSGatewayTestClient\AltexIRSGatewayTestClient.csproj]
+MainWindow.xaml.cs(65,20): warning CS0219: The variable 'tradeableId' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIRSGatewayTestClient\AltexIRSGatewayTestClient.csproj]
+MainWindow.xaml.cs(111,30): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIRSGatewayTestClient\AltexIRSGatewayTestClient.csproj]
+MainWindow.xaml.cs(200,30): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIRSGatewayTestClient\AltexIRSGatewayTestClient.csproj]
+MainWindow.xaml.cs(289,30): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIRSGatewayTestClient\AltexIRSGatewayTestClient.csproj]
+  AltexIRSGatewayTestClient -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexIRSGatewayTestClient.exe
+  AltexIrsGuibosModel -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexIrsGuibosModel.dll
+  ComponentManager -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\ComponentManager.exe
+IrsAltexGuibosImplementation.cs(40,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_DTInteger' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(41,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_DTDouble' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(42,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_DTDate' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(43,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_DTString' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(44,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_DTBoolean' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(46,24): warning CS0169: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_EntityRequestId' is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(47,24): warning CS0169: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_BreakClauseRequestId' is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(48,24): warning CS0169: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_CurveRequestId' is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(49,24): warning CS0169: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_UserRequestId' is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(50,22): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_ReceivedBreakClauseData' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(51,22): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_ReceivedCurveData' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(52,22): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_ReceivedEntityData' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(53,22): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_ReceivedUserData' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(57,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_StrategyIDPrefix' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(58,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_XCCYExchange' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(59,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_Basis_StrategyID_LongLeg_Postfix' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(60,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_Basis_StrategyID_ShortLeg_Postfix' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(61,22): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_PrincipalMultiplier' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(62,22): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_StrategyBrokerageCalculated' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(63,22): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_WaitForGTNStatusMessage' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(64,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_GUIBOSTopic' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(66,24): warning CS0414: The field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_SQLTopic' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+IrsAltexGuibosImplementation.cs(78,26): warning CS0649: Field 'AltexIrsGuibosGateway.IrsAltexGuibosImplementation.m_LastEmailSpan' is never assigned to, and will always have its default value [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\AltexIrsGuibosGateway\AltexIrsGuibosGateway.csproj]
+  CastEncryption -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\CastEncryption.dll
+AppConfigConnection.cs(58,30): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\AltexCore\Util\AppConfigConnection\AppConfigConnection.csproj]
+  AppConfigConnection -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AppConfigConnection.dll
+  IRSUtilsService.Tests -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\IRSUtilsService.Tests.dll
+Model\MatchingRun.cs(97,30): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\Fixings\InfSwapsTestBed\OrderEngine\OrderEngine.csproj]
+Model\MatchingRun.cs(296,25): warning CS0162: Unreachable code detected [C:\tfs\Fixings\InfSwapsTestBed\OrderEngine\OrderEngine.csproj]
+Model\MatchingRun.cs(305,25): warning CS0162: Unreachable code detected [C:\tfs\Fixings\InfSwapsTestBed\OrderEngine\OrderEngine.csproj]
+Model\MatchingRun.cs(315,25): warning CS0162: Unreachable code detected [C:\tfs\Fixings\InfSwapsTestBed\OrderEngine\OrderEngine.csproj]
+Model\MatchingRun.cs(454,30): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\Fixings\InfSwapsTestBed\OrderEngine\OrderEngine.csproj]
+Optimiser\GurobiInterface.cs(37,44): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\Fixings\InfSwapsTestBed\OrderEngine\OrderEngine.csproj]
+Model\MatchingRun.cs(68,26): warning CS0169: The field 'OrderEngine.MatchingRun._optStartTime' is never used [C:\tfs\Fixings\InfSwapsTestBed\OrderEngine\OrderEngine.csproj]
+Model\Tenor.cs(87,25): warning CS0414: The field 'OrderEngine.Tenor._NumericDuration' is assigned but its value is never used [C:\tfs\Fixings\InfSwapsTestBed\OrderEngine\OrderEngine.csproj]
+  OrderEngine -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\OrderEngine.dll
+DerivxFixingInterface\DerivxFixing.cs(361,30): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\Fixings\AltexGenericOrderbook\AltexGenericOrderBookClasses\AltexGenericOrderBookClasses.csproj]
+Fixing\OptimiserFixing.cs(1137,34): warning CS0168: The variable 'ex' is declared but never used [C:\tfs\Fixings\AltexGenericOrderbook\AltexGenericOrderBookClasses\AltexGenericOrderBookClasses.csproj]
+Contracts\ICurveManager.cs(11,27): warning CS0649: Field 'AltexGenericOrderbook.Contracts.CurveUpdateEventArgs.CurveUpdateTime' is never assigned to, and will always have its default value [C:\tfs\Fixings\AltexGenericOrderbook\AltexGenericOrderBookClasses\AltexGenericOrderBookClasses.csproj]
+Contracts\ICurveManager.cs(12,25): warning CS0649: Field 'AltexGenericOrderbook.Contracts.CurveUpdateEventArgs.TradeableID' is never assigned to, and will always have its default value null [C:\tfs\Fixings\AltexGenericOrderbook\AltexGenericOrderBookClasses\AltexGenericOrderBookClasses.csproj]
+Curve\CurveManager.cs(28,57): warning CS0067: The event 'AltexGenericOrderBookClasses.Curve.CurveManager.OnCurveUpdateEvent' is never used [C:\tfs\Fixings\AltexGenericOrderbook\AltexGenericOrderBookClasses\AltexGenericOrderBookClasses.csproj]
+DerivxFixingInterface\DerivxFixing.cs(38,23): warning CS0414: The field 'AltexGenericOrderBook.DerivxFixingInterfaces.DerivxFixing.m_CurrentSession' is assigned but its value is never used [C:\tfs\Fixings\AltexGenericOrderbook\AltexGenericOrderBookClasses\AltexGenericOrderBookClasses.csproj]
+DerivxFixingInterface\DerivxFixing.cs(39,29): warning CS0414: The field 'AltexGenericOrderBook.DerivxFixingInterfaces.DerivxFixing.m_CurrentState' is assigned but its value is never used [C:\tfs\Fixings\AltexGenericOrderbook\AltexGenericOrderBookClasses\AltexGenericOrderBookClasses.csproj]
+DerivxFixingInterface\DerivxFixing.cs(42,26): warning CS0649: Field 'AltexGenericOrderBook.DerivxFixingInterfaces.DerivxFixing._genCv' is never assigned to, and will always have its default value null [C:\tfs\Fixings\AltexGenericOrderbook\AltexGenericOrderBookClasses\AltexGenericOrderBookClasses.csproj]
+  AltexGenericOrderBookClasses -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexGenericOrderBookClasses.dll
+  AltexGenericMatchingEngine -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexGenericMatchingEngine.exe
+  AltexGenericOrderbook -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexGenericMatching.exe
+C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1578,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "Oracle.ManagedDataAccessDTC", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project. [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IrsGuiBosStatusChecker\IrsGuibosTradeChecker.csproj]
+  ICAP.IRS.FixingService -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\ICAP.IRS.FixingService.dll
+  AltexIrsGuibosGateway -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\AltexIrsGuibosGateway.exe
+Checker.cs(139,21): warning CS0219: The variable 'success' is assigned but its value is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IrsGuiBosStatusChecker\IrsGuibosTradeChecker.csproj]
+Checker.cs(45,24): warning CS0649: Field 'IrsGuibosTradeChecker.Checker._region' is never assigned to, and will always have its default value null [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\IrsGuiBosStatusChecker\IrsGuibosTradeChecker.csproj]
+  IrsGuibosTradeChecker -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\IrsGuibosTradeChecker.exe
+FixingConfiguration.cs(25,30): warning CS0169: The field 'ICAP.IRS.FixingServiceRunnerService.FixingConfiguration.m_KeepAliveTimer' is never used [C:\tfs\Fusion Rates\BASIS\Source\Dev\c#\Services\FixingService\FixingServiceRunnerService\ICAP.IRS.FixingServiceRunnerService.csproj]
+  ICAP.IRS.FixingServiceRunnerService -> C:\Dev\LocalBuild\Builds\MasterBuildAll\Deliverables\FixingServiceRunnerService.exe
